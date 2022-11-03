@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistarAsesor">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="registar aqui"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/txtRut_registrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="rut"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtNombreCompleto_registrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="nombre completo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtCorreo_registrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="correo"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/txtPassword_registrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnCrearAsesor_registrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="crear asesor" />
+</LinearLayout>
